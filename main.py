@@ -129,3 +129,8 @@ async def websocket_endpoint(websocket: WebSocket, foydalanuvchi_id: str):
             await boshqaruvchi.hammaga_yuborish(xabar_malumoti)
     except WebSocketDisconnect:
         boshqaruvchi.uzilish(websocket)
+
+
+
+
+# git branch test 
